@@ -119,46 +119,49 @@ body
     box-shadow: 0 0 0 6px #222237;
 }
 
+/* Sets the indicator position and rotation when the second menu item is active */
 .menu li:nth-child(2).active ~ .indicator
 {
     transform: translateX(-103px) rotate(0deg);
 }
 
-
+/* Sets the indicator position and rotation when the third menu item is active */
 .menu li:nth-child(3).active ~ .indicator
 {
     transform: translateX(-103px) rotate(45deg);
 }
 
+/* Sets the indicator position and rotation when the fourth menu item is active */
 .menu li:nth-child(4).active ~ .indicator
 {
     transform: translateX(-103px) rotate(90deg);
 }
 
+/* Sets the indicator position and rotation when the fifth menu item is active */
 .menu li:nth-child(5).active ~ .indicator
 {
     transform: translateX(-103px) rotate(135deg);
 }
 
-
+/* Sets the indicator position and rotation when the sixth menu item is active */
 .menu li:nth-child(6).active ~ .indicator
 {
     transform: translateX(-103px) rotate(180deg);
 }
 
-
+/* Sets the indicator position and rotation when the seventh menu item is active */
 .menu li:nth-child(7).active ~ .indicator
 {
     transform: translateX(-103px) rotate(225deg);
 }
 
-
+/* Sets the indicator position and rotation when the eighth menu item is active */
 .menu li:nth-child(8).active ~ .indicator
 {
     transform: translateX(-103px) rotate(270deg);
 }
 
-
+/* Sets the indicator position and rotation when the ninth menu item is active */
 .menu li:nth-child(9).active ~ .indicator
 {
     transform: translateX(-103px) rotate(315deg);
